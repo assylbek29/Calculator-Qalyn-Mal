@@ -1,0 +1,45 @@
+body{
+    background-size: cover;
+    color: black;
+    background-image: url(https://images.pexels.com/photos/574283/pexels-photo-574283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+
+h1{
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    font-family: "Georgia", cursive;
+    text-align: center;
+    font-size: 25px;
+}
+hr{
+    max-width: 340px;
+    border: 2px solid black;
+    border-radius: 2px
+}
+#Ed{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-family: "Georgia", cursive;
+    font-size: 25px;
+}
+
+.btn{
+    font-family: "Georgia", cursive;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+#total input{
+    font-size: 20px;
+}

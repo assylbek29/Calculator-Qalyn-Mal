@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <title>Qalyn Mal Calculator</title>
+</head>
+<body>
+    <h1>Qalyn Mal Calculator</h1>
+    <h3>Starting bid 500$. Answer questions and get final sum </h3>
+    <hr>
+<section id="Ed" class="container">
+ <section id="dropdown">
+    <form>
+    <label for="education">Bride's Education:</label>
+    <br>
+
+        <select name="education" id="education">
+          <option value="blank"></option>
+          <option name="edu" value="1.5" >Undergraduate degree</option>
+          <option name="edu" value="1.2" >College degree</option>
+          <option name="edu" value="1.05" >High school degree</option>
+          <option name="edu" value="0.9" >Middle school degree</option>
+        </select>
+        <br><br>
+</section>
+<section id="dropdown2">
+    <label for="family">Bride's family net worth:</label>
+    <br>
+        <select name="networth" id="networth">
+          <option value="blank"></option>
+          <option value="2">More than 100,000$</option>
+          <option value="1.5">50,000$ - 100,000$</option>
+          <option value="1.2">Less than 50,000$</option>
+        </select>
+        <br><br>
+</section>
+<section id= "skills">
+    <label for="skills">Bride's skills:</label>
+    <br>
+    <input type="checkbox" name="skills" id="skill1" value="200"> Good cook  <br>
+    <input type="checkbox" name="skills" id="skill2" value="100"> Playing on dombra<br>
+    <input type="checkbox" name="skills" id="skill3" value="150"> Easygoing character<br>
+    <input type="checkbox" name="skills" id="skill4" value="100"> Sings well
+    <br><br>
+</section>
+<section id="age">
+    <label for="age">Bride's age:</label><br>
+    <input type="radio" name="age" value="1.5" > 18-23<br>
+    <input type="radio" name="age" value="1.2"> 24-27<br>
+    <input type="radio" name= "age" value="0.95"> 28+
+    <br><br>
+</section>
+<section id= "gossip">
+    <label for="gossip">Bride's reputation:</label>
+    <br>
+    <input type="checkbox" name="gossip" value="0.85"> Gossips about her parent's attitude  <br>
+    <input type="checkbox" name="gossip" value="0.9"> Gossips about her character<br>
+    <input type="checkbox" name="gossip" value="200">  General gossips around her person 
+    <br><br>
+</section>
+</form>
+<button id="submit" type="button" class="btn"> Calculate</button>
+<section id="total">
+
+    <div id="price">
+        <small id="each">Total Qalyn Mal sum is:</small>
+        <span id="priceTotal">500$</span>
+        </div>
+
+</section>
+</section>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
